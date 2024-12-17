@@ -1,0 +1,51 @@
+.cont-dig-padre {
+
+    background-color: #12468c;
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .4);
+}
+
+.digitalizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 80%;
+    margin: auto;
+}
+
+.dig-img {
+    width: 600px;
+}
+
+.titulo-dig {
+    font-size: 20px;
+    color: #fff;
+}
+
+.titulo-dig h1 {
+    font-size: 35px;
+    color: #3472df;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+@media screen and (max-width:980px) {
+    .digitalizar {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .titulo-dig h1 {
+        font-size: 20px;
+    }
+
+    .titulo-dig{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .dig-img {
+        width: 100%;
+    }
+}
